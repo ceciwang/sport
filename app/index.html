@@ -13,29 +13,28 @@
 
     <link rel="stylesheet" href="css/bootstrap.css"/>
     <link rel="stylesheet" href="css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
 </head>
 <body>
 <div class="container">
-    <header class="page-header">
-        <nav>
+    <header class="page-header clearfix">
+        <div class="logo">
+            ISHIMOTO
+        </div>
             <ul class="nav nav-pills navbar-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Messages</a></li>
+                <li class="active"><a href="#">精品展示</a></li>
+                <li><a href="#">骑行服</a></li>
+                <li><a href="#">摔跤格斗服</a></li>
+                <li><a href="#">休闲运动服</a></li>
+                <li><a href="#">比赛竞技服</a></li>
+                <li><a href="#">运动用品</a></li>
             </ul>
-        </nav>
     </header>
     <div ng-controller="HomeController">
         <div style="height: 305px">
             <carousel interval="myInterval">
                 <slide ng-repeat="slide in slides" active="slide.active">
                     <img ng-src="{{slide.image}}" style="margin:auto;">
-
-                    <div class="carousel-caption">
-                        <h4>Slide {{$index}}</h4>
-
-                        <p>{{slide.text}}</p>
-                    </div>
                 </slide>
             </carousel>
         </div>
