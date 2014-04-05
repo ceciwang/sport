@@ -1,0 +1,45 @@
+<!doctype html>
+<html ng-app="sport">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sport</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <script src="scripts/lib/angular.js"></script>
+    <script src="scripts/lib/ui-bootstrap-tpls-0.10.0.js"></script>
+    <script src="scripts/home-controller.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/bootstrap-theme.css"/>
+</head>
+<body>
+<div class="container">
+    <header class="page-header">
+        <nav>
+            <ul class="nav nav-pills navbar-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Messages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div ng-controller="HomeController">
+        <div style="height: 305px">
+            <carousel interval="myInterval">
+                <slide ng-repeat="slide in slides" active="slide.active">
+                    <img ng-src="{{slide.image}}" style="margin:auto;">
+
+                    <div class="carousel-caption">
+                        <h4>Slide {{$index}}</h4>
+
+                        <p>{{slide.text}}</p>
+                    </div>
+                </slide>
+            </carousel>
+        </div>
+    </div>
+</div>
+</body>
+</html>
