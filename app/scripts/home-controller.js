@@ -1,6 +1,4 @@
-angular.module("sport", ['ui.bootstrap']);
-
-function HomeController($scope) {
+window.sport.controller('HomeController', ['$scope', function($scope){
     $scope.myInterval = 5000;
 
     var slides = $scope.slides = [];
@@ -19,4 +17,4 @@ function HomeController($scope) {
         $scope.addSlide();
         slides[i].image = imageUris[i];
     }
-}
+}]);
