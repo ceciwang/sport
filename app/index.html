@@ -17,8 +17,8 @@
     <link rel="stylesheet" href="css/app.css"/>
 </head>
 <body>
-<div class="container">
-    <header class="page-header clearfix">
+<div>
+    <header class="container page-header clearfix">
         <div class="logo">
             ISHIMOTO
         </div>
@@ -32,10 +32,10 @@
             </ul>
     </header>
     <div ng-controller="HomeController">
-        <div style="height: 305px">
+        <div>
             <carousel interval="myInterval">
                 <slide ng-repeat="slide in slides" active="slide.active">
-                    <img ng-src="{{slide.image}}" style="margin:auto;">
+                    <img height="400" ng-src="{{slide.image}}" style="margin:auto;">
                 </slide>
             </carousel>
         </div>

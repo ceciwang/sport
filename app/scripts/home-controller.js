@@ -4,7 +4,7 @@ function HomeController($scope) {
     $scope.myInterval = 5000;
 
     var slides = $scope.slides = [];
-    var imageUris = _.map(["huawei", "nike", "nike2", "nike3"], function(url){
+    var imageUris = _.map(["huawei","huawei","huawei","huawei"], function(url){
         return "images/"+url+".jpg";
     });
 
