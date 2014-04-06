@@ -1,3 +1,6 @@
 window.sport.config(['$routeProvider', function($routeProvider){
-    $routeProvider.otherwise({template: 'templates/home.html'})
+    $routeProvider.when('/riding', {
+            templateUrl: 'templates/riding.html'
+        })
+        .otherwise({templateUrl: 'templates/home.html'})
 }]);
