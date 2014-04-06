@@ -1,5 +1,9 @@
 {
-    "home": ["http://bcs.duapp.com/ccwang/sport%2Fhome%2Fhuawei.jpg"],
+    "home": ["http://bcs.duapp.com/ccwang/sport%2Fhome%2Fhuawei.jpg",
+        "http://bcs.duapp.com/ccwang/sport%2Fhome%2Fhuawei.jpg",
+        "http://bcs.duapp.com/ccwang/sport%2Fhome%2Fhuawei.jpg",
+        "http://bcs.duapp.com/ccwang/sport%2Fhome%2Fhuawei.jpg"],
+
     "riding": ["http://bcs.duapp.com/ccwang/sport%2Friding%2Fthumb1.jpg",
         "http://bcs.duapp.com/ccwang/sport%2Friding%2Fthumb6.jpg",
         "http://bcs.duapp.com/ccwang/sport%2Friding%2Fthumb4.png",
