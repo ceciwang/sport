@@ -1,1 +1,1 @@
-window.sport = angular.module("sport", ['ui.bootstrap']);
+window.sport = angular.module("sport", ['ngRoute', 'ui.bootstrap']);
