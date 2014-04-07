@@ -27,7 +27,7 @@
 
     <div ng-repeat="picUrl in pics">
         <div class="col-md-3">
-            <a href="" class="thumbnail">
+            <a href="" ng-click="open(picUrl)" class="thumbnail">
                 <img ng-src="{{picUrl}}" alt="riding">
             </a>
         </div>
