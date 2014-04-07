@@ -1,4 +1,17 @@
 <div ng-controller="HomeController">
+    <header class="container page-header clearfix">
+        <div class="logo">
+            LOGO
+        </div>
+        <ul class="nav nav-pills navbar-right">
+            <li class="active"><a href="#">精品展示</a></li>
+            <li><a ng-href="#/riding">骑行服</a></li>
+            <li><a href="#">摔跤格斗服</a></li>
+            <li><a href="#">休闲运动服</a></li>
+            <li><a href="#">比赛竞技服</a></li>
+            <li><a href="#">运动用品</a></li>
+        </ul>
+    </header>
     <div>
         <carousel interval="myInterval">
             <slide ng-repeat="slide in slides" active="slide.active">
