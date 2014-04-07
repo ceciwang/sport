@@ -33,3 +33,7 @@
 .banner .contact {
     line-height: 30px;
 }
+
+.list .nav-pills {
+    text-align: center;
+}
