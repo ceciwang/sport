@@ -1,4 +1,4 @@
-<div class="container list" ng-controller="ListController">
+<div class="container list">
     <ul class="nav nav-pills">
         <li class="active">
             <a href="#">All</a></li>
@@ -13,7 +13,7 @@
 
     <div ng-repeat="picUrl in pics">
         <div class="col-md-3">
-            <a href="" class="thumbnail">
+            <a href="#/detail/sample" ng-click="open(picUrl)" class="thumbnail">
                 <img ng-src="{{picUrl}}" alt="riding">
             </a>
         </div>
