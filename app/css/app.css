@@ -1,5 +1,7 @@
-body{
-    background-color: #f1f1f1;
+
+.banner {
+
+    background-image: url("../images/header_bg.png");
 }
 
 .logo {
@@ -19,6 +21,7 @@ body{
 }
 
 .page-header {
+    margin-top: 30px;
     border-bottom: none;
 }
 
@@ -27,6 +30,6 @@ body{
     background: url("../images/slide_shadow.png") no-repeat center 0;
 }
 
-.row .contact {
-    padding: 4px;
+.banner .contact {
+    line-height: 30px;
 }
