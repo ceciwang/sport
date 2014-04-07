@@ -1,3 +1,7 @@
+body{
+    background-color: #f1f1f1;
+}
+
 .logo {
     letter-spacing: 0;
     font-family: "Helvetica, arial, sans-serif",serif;
@@ -21,4 +25,8 @@
 .introduction {
     padding: 30px 10px 30px 10px;
     background: url("../images/slide_shadow.png") no-repeat center 0;
+}
+
+.row .contact {
+    padding: 4px;
 }
