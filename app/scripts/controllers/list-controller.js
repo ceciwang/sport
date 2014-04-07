@@ -1,3 +1,5 @@
 window.sport.controller('ListController', ['$scope', 'imageRepo', function ($scope, imageRepo) {
-    $scope.pics = imageRepo.riding;
+    imageRepo.getRiding(function(data){
+        $scope.pics = data.riding;
+    })
 }]);

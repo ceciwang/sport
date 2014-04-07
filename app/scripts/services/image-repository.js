@@ -1,9 +1,6 @@
 window.sport.factory('imageRepo', ['$http', function ($http) {
-
-    var allData = function(){
-      $http.get('data/images.json').success(function(data){
-          return data.riding;
-      })
+    var getRiding = function (onSuccess) {
+        return $http.get('data/images.json').success(onSuccess);
     };
 
     return {
@@ -11,7 +8,7 @@ window.sport.factory('imageRepo', ['$http', function ($http) {
             "http://bcs.duapp.com/ccwang/sport%2Fhome%2Fhuawei.jpg",
             "http://bcs.duapp.com/ccwang/sport%2Fhome%2Fhuawei.jpg",
             "http://bcs.duapp.com/ccwang/sport%2Fhome%2Fhuawei.jpg"],
-        getRiding: allData,
+        getRiding: getRiding,
         wrestle: [],
         goods: [],
         athletics: [],

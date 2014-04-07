@@ -1,8 +1,8 @@
-<div ng-controller="ListController">
-    <div class="row" ng-repeat="">
-        <div class="col-xs-6 col-md-3">
+<div class="container" ng-controller="ListController">
+    <div class="row" ng-repeat="picUrl in pics">
+        <div class="col-md-3">
             <a href="#" class="thumbnail">
-                <img data-src="holder.js/100%x180" alt="riding">
+                <img ng-src="{{picUrl}}" alt="riding">
             </a>
         </div>
     </div>
