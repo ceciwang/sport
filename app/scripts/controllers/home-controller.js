@@ -11,5 +11,4 @@ window.sport.controller('HomeController', ['$scope','imageRepo', function($scope
         });
     });
 
-
 }]);
