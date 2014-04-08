@@ -30,14 +30,21 @@
     background: url("../images/slide_shadow.png") no-repeat center 0;
 }
 
-.banner .contact {
-    line-height: 30px;
-}
-
 .list .nav-pills {
     text-align: center;
 }
 
 .footer {
     margin-bottom: 10px;
+}
+
+.banner .contact {
+    padding: 6px 0 4px;
+}
+
+.header-icon {
+    font-size: 13px;
+    color: #192f5a;
+    padding: 2px 0px 3px 25px;
+    background: url(../images/top_phone.png) no-repeat 0px 1px;
 }
