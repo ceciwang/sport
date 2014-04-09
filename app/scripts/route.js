@@ -5,12 +5,12 @@ window.sport.config(['$routeProvider', function ($routeProvider) {
             label: 'Home'
         })
         .when('/riding', {
-            templateUrl: 'templates/riding.html',
+            templateUrl: 'templates/category.html',
             controller: 'ListController',
             label: 'Riding'
         })
         .when('/riding/sample', {
-            templateUrl: 'templates/riding.html',
+            templateUrl: 'templates/category.html',
             controller: 'DetailController',
             label: 'Sample'
         })
