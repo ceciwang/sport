@@ -52,6 +52,15 @@
     padding: 2px 0px 3px 25px;
     background: url(../images/top_phone.png) no-repeat 0px 1px;
 }
+
 .breadcrumb > li + li:before {
     content: '>';
+}
+
+.all-category li.item {
+    list-style: none;
+}
+
+.all-category ul{
+    padding-left: 0;
 }
