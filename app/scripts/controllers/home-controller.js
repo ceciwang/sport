@@ -4,8 +4,8 @@ window.sport.controller('HomeController', ['$scope','imageRepo', function($scope
     var slides = $scope.slides = [];
     var images = [];
 
-    imageRepo.getRiding(function(data){
-        images = data.home;
+    imageRepo.fetchImages.success(function(allImages){
+        images = allImages.home;
         _.each(images, function(image){
             slides.push({image: image});
         });
