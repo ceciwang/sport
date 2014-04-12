@@ -15,19 +15,17 @@
         "http://bcs.duapp.com/ccwang/sport%2Fwrestle%2F4.jpg"
     ],
 
-    "sport": ["http://bcs.duapp.com/ccwang/sport%2Fwrestle%2F3.jpg",
-        "http://bcs.duapp.com/ccwang/sport%2Fwrestle%2F4.jpg",
-        "http://bcs.duapp.com/ccwang/sport%2Fwrestle%2F2.jpg"
+    "sport": ["http://bcs.duapp.com/xdlink/second/ai-100.jpg",
+        "http://bcs.duapp.com/xdlink/second/bi-100.jpg",
+        "http://bcs.duapp.com/xdlink/second/bi-104.png"
     ],
 
-    "athletics": ["http://bcs.duapp.com/ccwang/sport%2Fwrestle%2F1.jpg",
-        "http://bcs.duapp.com/ccwang/sport%2Fwrestle%2F4.jpg",
-        "http://bcs.duapp.com/ccwang/sport%2Fwrestle%2F2.jpg"
+    "athletics": ["http://bcs.duapp.com/xdlink/second/ai-100.jpg",
+        "http://bcs.duapp.com/xdlink/second/bi-101.jpg",
+        "http://bcs.duapp.com/xdlink/second/bi-104.png"
     ],
 
-    "goods": ["http://bcs.duapp.com/ccwang/sport%2Fwrestle%2F3.jpg",
-        "http://bcs.duapp.com/ccwang/sport%2Fwrestle%2F1.jpg",
-        "http://bcs.duapp.com/ccwang/sport%2Fwrestle%2F4.jpg",
-        "http://bcs.duapp.com/ccwang/sport%2Fwrestle%2F2.jpg"
-    ]
-}
+    "goods": [ "http://bcs.duapp.com/xdlink/second/bi-100.jpg",
+        "http://bcs.duapp.com/xdlink/second/bi-101.jpg",
+        "http://bcs.duapp.com/xdlink/second/bi-104.png"
+    ]}

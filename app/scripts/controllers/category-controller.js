@@ -1,6 +1,7 @@
-window.sport.controller('CategoryController', ['$scope', 'imageRepo','$modal', function ($scope, imageRepo, $modal) {
+window.sport.controller('CategoryController', ['$scope', 'imageRepo','$routeParams', function ($scope, imageRepo, $routeParams) {
+    var category = $routeParams.category;
     imageRepo.fetchImages.success(function(data){
-        $scope.pics = data.riding;
+        $scope.pics = data[category];
     });
     $scope.open = function(){};
 
