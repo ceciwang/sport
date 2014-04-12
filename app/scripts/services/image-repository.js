@@ -1,6 +1,6 @@
 window.sport.factory('imageRepo', ['$http', function ($http) {
     var getImages = function (onSuccess) {
-        return $http.get('data/images.js').success(onSuccess);
+        return $http.get('data/images.json').success(onSuccess);
     };
 
     return {
