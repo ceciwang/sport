@@ -2,11 +2,9 @@ window.sport.controller('HomeController', ['$scope','imageRepo', function($scope
     $scope.myInterval = 5000;
 
     var slides = $scope.slides = [];
-    var images = [];
 
-    imageRepo.fetchImages.success(function(allImages){
-        images = allImages.home;
-        _.each(images, function(image){
+    imageRepo.fetchAds.success(function(allImages){
+        _.each(allImages.images, function(image){
             slides.push({image: image});
         });
     });
