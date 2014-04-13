@@ -9,6 +9,11 @@ window.sport.config(['$routeProvider', function ($routeProvider) {
             controller: 'CategoryController',
             label: 'Riding'
         })
+        .when('/:category/:subCategory', {
+            templateUrl: 'templates/category.html',
+            controller: 'SubCategoryController',
+            label: 'Riding'
+        })
         .when('/riding/sample', {
             templateUrl: 'templates/category.html',
             controller: 'DetailController',
