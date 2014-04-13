@@ -65,6 +65,13 @@
     list-style: none;
 }
 
+.all-category li.active {
+    background-color: #f1f1f1;
+}
+
 .all-category ul{
     padding-left: 0;
+}
+.accordion-toggle {
+    cursor: pointer;
 }

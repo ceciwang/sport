@@ -3,6 +3,11 @@ window.sport.controller('AccordionController', ['$scope',"$routeParams", functio
       return $routeParams.category === category;
     };
 
+    $scope.isActiveItem = function(item){
+      if($routeParams.subCategory === item){
+          return "active";
+      }
+    };
     $scope.groups = [{
             category: "riding",
             sub: ["longSleeve", "shortSleeve", "riding1", "riding2"]

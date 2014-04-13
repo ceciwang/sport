@@ -12,7 +12,7 @@
                     {{group.category}}
                 </accordion-heading>
                 <ul>
-                    <li class="item" ng-repeat="item in group.sub">
+                    <li class="item" ng-class="isActiveItem(item)" ng-repeat="item in group.sub">
                         <a ng-href="#/{{group.category}}/{{item}}">{{item}}</a>
                     </li>
                 </ul>
