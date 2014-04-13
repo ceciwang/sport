@@ -1,4 +1,8 @@
-window.sport.controller('AccordionController', ['$scope', function ($scope) {
+window.sport.controller('AccordionController', ['$scope',"$routeParams", function ($scope, $routeParams) {
+    $scope.show = function(category){
+      return $routeParams.category === category;
+    };
+
     $scope.groups = [{
             category: "riding",
             sub: ["longSleeve", "shortSleeve", "riding1", "riding2"]

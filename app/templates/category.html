@@ -7,9 +7,9 @@
 <div class="container list">
     <div class="col-md-3 all-category" ng-controller="AccordionController">
         <accordion close-others="oneAtATime">
-            <accordion-group is-open="isopen" ng-repeat="group in groups">
+            <accordion-group is-open="show(group.category)" ng-repeat="group in groups">
                 <accordion-heading>
-                    {{group.category}} <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen, 'glyphicon-chevron-right': !isopen}"></i>
+                    {{group.category}}
                 </accordion-heading>
                 <ul>
                     <li class="item" ng-repeat="item in group.sub">
