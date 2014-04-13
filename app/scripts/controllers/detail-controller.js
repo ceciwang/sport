@@ -1,7 +1,8 @@
-window.sport.controller('DetailController', ['$scope', 'imageRepo','$modal', function ($scope, imageRepo, $modal) {
-    imageRepo.getRiding(function(data){
-        $scope.pics = data.wrestle;
+window.sport.controller('DetailController', ['$scope', 'imageRepo','$modal','$routeParams', function ($scope, imageRepo, $modal, $routeParams) {
+    imageRepo.fetchImages(function(data){
+        $scope.pics = data["riding"]["all"];
     });
+
     $scope.open = function (imageUrl) {
         $modal.open({
             template: '<div><img ng-src="'+imageUrl+'" alt="riding"></div>'

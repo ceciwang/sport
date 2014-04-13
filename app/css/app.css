@@ -93,3 +93,7 @@
 .accordion-toggle {
     cursor: pointer;
 }
+
+.modal-content {
+    text-align: center;
+}
