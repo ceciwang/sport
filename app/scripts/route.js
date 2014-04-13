@@ -6,13 +6,11 @@ window.sport.config(['$routeProvider', function ($routeProvider) {
         })
         .when('/:category', {
             templateUrl: 'templates/category.html',
-            controller: 'CategoryController',
-            label: 'Riding'
+            controller: 'CategoryController'
         })
         .when('/:category/:subCategory', {
             templateUrl: 'templates/category.html',
-            controller: 'SubCategoryController',
-            label: 'Riding'
+            controller: 'SubCategoryController'
         })
         .when('/riding/sample', {
             templateUrl: 'templates/category.html',
