@@ -238,7 +238,7 @@ angular.module('ui.bootstrap.accordion', ['ui.bootstrap.collapse'])
     link: function(scope, element, attrs, accordionCtrl) {
       var getIsOpen, setIsOpen;
 
-      accordionCtrl.addGroup(scope);
+//      accordionCtrl.addGroup(scope);
 
       scope.isOpen = false;
       
@@ -253,7 +253,7 @@ angular.module('ui.bootstrap.accordion', ['ui.bootstrap.collapse'])
 
       scope.$watch('isOpen', function(value) {
         if ( value ) {
-          accordionCtrl.closeOthers(scope);
+//          accordionCtrl.closeOthers(scope);
         }
         if ( setIsOpen ) {
           setIsOpen(scope.$parent, value);
