@@ -1,56 +1,137 @@
 {
     "riding": {
         "longSleeve": [
-            "http://bcs.duapp.com/xdlink/second/ai-100.jpg",
-            "http://bcs.duapp.com/xdlink/second/bi-100.jpg",
-            "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
+            },
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
+            },
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
+            }
         ],
-        "shortSleeve": ["http://bcs.duapp.com/xdlink/second/bi-104.png"],
-        "subCategory1": ["http://bcs.duapp.com/xdlink/second/bi-100.jpg"],
-        "subCategory2": ["http://bcs.duapp.com/xdlink/second/ai-100.jpg"]
+        "shortSleeve": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-104.png"
+            }
+        ],
+        "riding1": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
+            }
+        ],
+        "riding2": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
+            }
+        ]
     },
 
     "wrestle": {
         "tumbling": [
-            "http://bcs.duapp.com/xdlink/second/ai-100.jpg",
-            "http://bcs.duapp.com/xdlink/second/bi-100.jpg",
-            "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
+            },
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
+            },
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
+            }
         ],
-        "grapple": ["http://bcs.duapp.com/xdlink/second/bi-104.png",
-            "http://bcs.duapp.com/xdlink/second/bi-100.jpg",
-            "http://bcs.duapp.com/xdlink/second/ai-100.jpg"]
+        "grapple": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-104.png"
+            },
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
+            },
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
+            }
+        ]
     },
 
     "athletics": {
         "football": [
-            "http://bcs.duapp.com/xdlink/second/ai-100.jpg",
-            "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
+            },
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
+            }
         ],
-        "basketball": ["http://bcs.duapp.com/xdlink/second/bi-104.png"],
-        "badminton": ["http://bcs.duapp.com/xdlink/second/bi-100.jpg"],
-        "pingpang":
-            ["http://bcs.duapp.com/xdlink/second/ai-100.jpg",
-            "http://bcs.duapp.com/xdlink/second/bi-101.jpg"]
+        "basketball": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-104.png"
+            }
+        ],
+        "badminton": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
+            }
+        ],
+        "pingpang": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
+            },
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
+            }
+        ]
     },
 
     "sport": {
         "golf": [
-            "http://bcs.duapp.com/xdlink/second/ai-100.jpg",
-            "http://bcs.duapp.com/xdlink/second/bi-100.jpg",
-            "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
+            },
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
+            },
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
+            }
         ],
-        "subCategory1": ["http://bcs.duapp.com/xdlink/second/bi-104.png"],
-        "subCategory2": ["http://bcs.duapp.com/xdlink/second/bi-100.jpg"],
-        "subCategory3": ["http://bcs.duapp.com/xdlink/second/ai-100.jpg"]
+        "subCategory1": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-104.png"
+            }
+        ],
+        "subCategory2": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
+            }
+        ],
+        "subCategory3": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
+            }
+        ]
     },
 
     "goods": {
         "protectiveClothing": [
-            "http://bcs.duapp.com/xdlink/second/ai-100.jpg",
-            "http://bcs.duapp.com/xdlink/second/bi-100.jpg",
-            "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
+            },
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
+            },
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
+            }
         ],
-        "accessories": ["http://bcs.duapp.com/xdlink/second/bi-104.png"],
-        "glove": ["http://bcs.duapp.com/xdlink/second/bi-100.jpg"]
+        "accessories": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-104.png"
+            }
+        ],
+        "glove": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
+            }
+        ]
     }
 }

@@ -3,14 +3,15 @@
         <img src="images/abnote_logo.png" alt="logo"/>
     </a>
     <img src="http://bcs.duapp.com/xdlink/second/banner02.jpg" width="800" style="float:right" alt="banner"/>
-
 </header>
 <div class="container list">
     <div class="col-md-3 all-category" ng-controller="AccordionController">
         <accordion close-others="oneAtATime">
             <accordion-group heading="{{group.category}}" ng-repeat="group in groups">
                 <ul>
-                    <li class="item" ng-repeat="item in group.sub">{{item}}</li>
+                    <li class="item" ng-repeat="item in group.sub">
+                        <a ng-href="#/{{group.category}}/{{item}}">{{item}}</a>
+                    </li>
                 </ul>
                 {{group.content}}
             </accordion-group>
@@ -21,10 +22,10 @@
 
         <div ng-include="'templates/partials/breadcrumb.html'"></div>
 
-        <div ng-repeat="picUrl in pics">
+        <div ng-repeat="pic in pics">
             <div class="col-md-3">
-                <a href="#/riding/sample" ng-click="open(picUrl)" class="thumbnail">
-                    <img ng-src="{{picUrl}}" alt="riding">
+                <a href="#/riding/sample" ng-click="open(pic.url)" class="thumbnail">
+                    <img ng-src="{{pic.url}}" alt="riding">
                 </a>
             </div>
         </div>

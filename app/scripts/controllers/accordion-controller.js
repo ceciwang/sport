@@ -1,24 +1,23 @@
-window.sport.controller('AccordionController', ['$scope', 'imageRepo', function ($scope, imageRepo) {
-    $scope.groups = [
-        {
-            category: "骑行服",
-            sub: ["长袖套装", "短袖套装", "分类一", "分类二"]
+window.sport.controller('AccordionController', ['$scope', function ($scope) {
+    $scope.groups = [{
+            category: "riding",
+            sub: ["longSleeve", "shortSleeve", "riding1", "riding2"]
         },
         {
-            category: "摔跤格斗服",
-            sub: ["长袖套装", "短袖套装", "分类一", "分类二"]
+            category: "wrestle",
+            sub: ["tumbling", "grapple"]
         },
         {
-            category: "休闲运动服",
-            sub: ["长袖套装", "短袖套装", "分类一", "分类二"]
+            category: "athletics",
+            sub: ["football", "basketball", "badminton", "pingpang"]
         },
         {
-            category: "比赛竞技服",
-            sub: ["长袖套装", "短袖套装", "分类一", "分类二"]
+            category: "sport",
+            sub: ["golf", "subCategory1", "subCategory2", "subCategory3"]
         },
         {
-            category: "运动用品",
-            sub: ["长袖套装", "短袖套装", "分类一", "分类二"]
+            category: "goods",
+            sub: ["protectiveClothing", "accessories", "glove"]
         }
     ]
 }]);
