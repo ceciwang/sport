@@ -38,6 +38,24 @@
     margin-top: 25px;
 }
 
+.page-header .nav li{
+    border: 0px solid #90cdeb;
+    border-right-width: 1px;
+}
+
+.page-header .nav li:last-child {
+    border: none;
+}
+.page-header .nav a {
+    color: #0f2c52;
+}
+
+.nav > li.active > a,
+.nav > li.active > a:hover{
+    background-color: #ffffff;
+    color: #0f2c52;
+}
+
 .footer {
     margin-bottom: 10px;
 }
