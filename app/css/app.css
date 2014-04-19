@@ -50,6 +50,15 @@
     color: #0f2c52;
 }
 
+.homepage .page-header .category {
+    display: inline-block;
+    margin-top: 0;
+}
+
+.homepage .page-header {
+    text-align: center;
+}
+
 .nav > li.active > a,
 .nav > li.active > a:hover{
     background-color: #ffffff;
