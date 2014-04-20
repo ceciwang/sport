@@ -13,6 +13,4 @@ window.sport.controller('HomeController', ['$rootScope','$scope','imageRepo', fu
             });
         });
     });
-    console.log($rootScope._("Boxing pants"))
-
 }]);
