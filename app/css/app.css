@@ -106,3 +106,20 @@
 .modal-content {
     text-align: center;
 }
+
+.mega-menu {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    padding-left: 0;
+    width: 500px;
+    text-align: left;
+}
+
+.mega-menu li {
+    display: inline-block;
+}
+
+.page-header .category li:hover > .mega-menu {
+    display: block;
+}
