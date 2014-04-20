@@ -3,9 +3,14 @@ window.sport.controller('HomeController', ['$scope','imageRepo', function($scope
 
     var slides = $scope.slides = [];
 
+    var categories = ["riding", "wrestle","athletics", "sport","goods"];
+    
     imageRepo.fetchAds().success(function(allImages){
-        _.each(allImages.images, function(image){
-            slides.push({image: image});
+        _.each(allImages.images, function(image, index){
+            slides.push({
+                image: image,
+                uri: categories[index]
+            });
         });
     });
 
