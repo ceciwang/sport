@@ -4,11 +4,13 @@ var allPromises;
 window.sport.run(['$rootScope', '$http', '$q', function ($rootScope, $http, $q) {
     var i18nPromise = $http.get('data/naming.json');
 
+    $rootScope.lang = "EN";
+
     allPromises = $q.all([ i18nPromise]);
     allPromises.then(function (respond) {
         $rootScope._ = function(key){
             var translation = respond[0].data[key];
-            if(!!translation){
+            if(!!translation && $rootScope.lang === "CN"){
                 return translation;
             }
             return key;

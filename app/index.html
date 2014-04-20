@@ -34,7 +34,11 @@
             <img src="images/abnote_logo.png" alt="logo"/>
         </a>
 
-        <span>Chinese/English</span>
+        <span>
+            <span ng-click='i18n("CN")'>中文</span>
+            /
+            <span ng-click='i18n("US")'>English</span>
+        </span>
         <ul class="nav nav-pills navbar-right">
             <li class="active"><a href="#">Home</a></li>
             <li><a ng-href="#/introduction">About Vigormeet</a></li>
