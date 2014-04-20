@@ -1,10 +1,10 @@
-window.sport.controller('HomeController', ['$scope','imageRepo', function($scope, imageRepo){
+window.sport.controller('HomeController', ['$rootScope','$scope','imageRepo', function($rootScope, $scope, imageRepo){
     $scope.myInterval = 5000;
 
     var slides = $scope.slides = [];
 
     var categories = ["riding", "wrestle","athletics", "sport","goods"];
-    
+
     imageRepo.fetchAds().success(function(allImages){
         _.each(allImages.images, function(image, index){
             slides.push({
@@ -13,5 +13,6 @@ window.sport.controller('HomeController', ['$scope','imageRepo', function($scope
             });
         });
     });
+    console.log($rootScope._("Boxing pants"))
 
 }]);
