@@ -31,20 +31,19 @@
 <div ng-controller="MainController">
     <header class="container page-header clearfix">
         <a class="logo" href="#">
-            <img src="images/abnote_logo.png" alt="logo"/>
+            <img src="images/logo.jpg" alt="logo"/>
         </a>
-
         <span>
             <span ng-click='i18n("CN")'>中文</span>
             /
             <span ng-click='i18n("US")'>English</span>
         </span>
         <ul class="nav nav-pills navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a ng-href="#/introduction">About Vigormeet</a></li>
-            <li><a ng-href="#">Design & Product</a></li>
-            <li><a ng-href="#">Contact us</a></li>
-            <li><a ng-href="#">Vigormeet Highlight</a></li>
+            <li class="active"><a href="#">{{_("Home")}}</a></li>
+            <li><a ng-href="#/introduction">{{_("About Vigormeet")}}</a></li>
+            <li><a ng-href="#">{{_("Design & Product")}}</a></li>
+            <li><a ng-href="#">{{_("Contact us")}}</a></li>
+            <li><a ng-href="#">{{_("Vigormeet Highlight")}}</a></li>
         </ul>
     </header>
     <ng-view></ng-view>
