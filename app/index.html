@@ -29,23 +29,26 @@
 </head>
 <body>
 <div ng-controller="MainController">
-    <header class="container page-header clearfix">
-        <a class="logo" href="#">
-            <img src="images/logo.jpg" alt="logo"/>
-        </a>
+    <div class="home-header">
+        <header class="container page-header clearfix">
+            <a class="logo" href="#">
+                <img src="images/logo.jpg" alt="logo"/>
+            </a>
         <span class="lang">
             <span ng-click='i18n("CN")'>中文</span>
             /
             <span ng-click='i18n("US")'>English</span>
         </span>
-        <ul class="nav nav-pills navbar-right">
-            <li class="active"><a href="#">{{_("Home")}}</a></li>
-            <li><a ng-href="#/introduction">{{_("About Vigormeet")}}</a></li>
-            <li><a ng-href="#">{{_("Design & Product")}}</a></li>
-            <li><a ng-href="#">{{_("Contact us")}}</a></li>
-            <li><a ng-href="#">{{_("Vigormeet Highlight")}}</a></li>
-        </ul>
-    </header>
+            <ul class="nav nav-pills navbar-right">
+                <li class="active"><a href="#">{{_("Home")}}</a></li>
+                <li><a ng-href="#/introduction">{{_("About Vigormeet")}}</a></li>
+                <li><a ng-href="#">{{_("Design & Product")}}</a></li>
+                <li><a ng-href="#">{{_("Contact us")}}</a></li>
+                <li><a ng-href="#">{{_("Vigormeet Highlight")}}</a></li>
+            </ul>
+        </header>
+    </div>
+
     <ng-view></ng-view>
     <footer class="container footer">
         <div class="pull-left">© 2014 ABnote North America - All Rights Reserved.</div>

@@ -1,6 +1,5 @@
 
 .banner {
-
     background-image: url("../images/header_bg.png");
 }
 
@@ -21,8 +20,9 @@
 }
 
 .page-header {
-    margin: 10px auto 10px;
+    margin: 0 auto 0;
     border-bottom: none;
+    padding-top: 10px;
 }
 
 .introduction {
@@ -61,7 +61,7 @@
 
 .nav > li.active > a,
 .nav > li.active > a:hover{
-    background-color: #ffffff;
+    background-color: #cecfd1;
     color: #0f2c52;
 }
 
@@ -88,6 +88,10 @@
     text-transform: capitalize;
 }
 
+.all-category {
+    padding-top: 0;
+}
+
 .all-category li.item {
     list-style: none;
 }
@@ -99,6 +103,7 @@
 .all-category ul{
     padding-left: 0;
 }
+
 .accordion-toggle {
     cursor: pointer;
 }
@@ -112,12 +117,63 @@
     position: absolute;
     z-index: 100;
     padding-left: 0;
-    width: 500px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 250px;
     text-align: left;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    background-clip: padding-box;
+}
+
+/*.mega-menu{*/
+    /*background-color: #F2F2F2;*/
+    /*border-radius: 5px;*/
+    /*box-shadow: 0px 0px 6px #B2B2B2;*/
+    /*height: 200px;*/
+    /*margin: 20px;*/
+    /*width:  275px;*/
+/*}*/
+
+/*.mega-menu::after {*/
+    /*background-color: #F2F2F2;*/
+    /*box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );*/
+    /*content: "\00a0";*/
+    /*display: block;*/
+    /*height: 20px;*/
+    /*left: -10px;*/
+    /*position: relative;*/
+    /*top: 20px;*/
+    /*transform: rotate( 45deg );*/
+    /*width:  20px;*/
+    /**/
+    /*position:absolute;*/
+    /*top:12px;*/
+    /*width: 0;*/
+    /*height: 0;*/
+    /*border-top: 15px solid transparent;*/
+    /*border-bottom: 15px solid transparent;*/
+    /*border-right: 10px solid #f2f2f2;*/
+    /*margin-left:-9px;*/
+    /*z-index:3;*/
+/*}*/
+
+.home-header {
+    width: 100%;
+    background: #cecfd1;
+    background: -webkit-gradient(linear,0 0,0 bottom,from(#cecfd1),to(#fdfdfd));
+    background: -moz-linear-gradient(top,#cecfd1,#fdfdfd);
+    background: -o-linear-gradient(top,#cecfd1,#fdfdfd);
 }
 
 .mega-menu li {
-    display: inline-block;
+    list-style: none;
+    padding-left: 15px;
 }
 
 .page-header .category li:hover > .mega-menu {
