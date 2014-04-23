@@ -61,7 +61,7 @@
 
 .nav > li.active > a,
 .nav > li.active > a:hover{
-    background-color: #cecfd1;
+    background-color: transparent;
     color: #0f2c52;
 }
 
@@ -166,7 +166,7 @@
 .home-header {
     width: 100%;
     background: #cecfd1;
-    background: -webkit-gradient(linear,0 0,0 bottom,from(#cecfd1),to(#fdfdfd));
+    background: -webkit-gradient(linear,0 0,0 bottom,from(lightskyblue),to(#fdfdfd));
     background: -moz-linear-gradient(top,#cecfd1,#fdfdfd);
     background: -o-linear-gradient(top,#cecfd1,#fdfdfd);
 }
