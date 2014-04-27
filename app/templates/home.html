@@ -1,48 +1,12 @@
 <div ng-controller="HomeController" class="homepage">
     <header class="container page-header clearfix all-category">
         <ul class="nav nav-pills category">
-            <li>
-                <a ng-href="#/Cycling-jersey">{{_("Cycling jersey")}}</a>
+            <li ng-repeat="group in categories">
+                <a ng-href="{{group.categoryWithLink.link}}">{{_(group.categoryWithLink.category)}}</a>
                 <ul class="mega-menu">
-                    <li><a href="">{{_("Longsleeve suit")}}</a></li>
-                    <li><a href="">{{_("Shortsleeve suit")}}</a></li>
-                    <li><a href="">{{_("Windbreaker")}}</a></li>
-                </ul>
-            </li>
-            <li><a ng-href="#/Wrestling-jersey">{{_("Wrestling jersey")}}</a>
-                <ul class="mega-menu">
-                    <li><a href="">{{_("wrestling jersey")}}</a></li>
-                    <li><a href="">{{_("Boxing pants")}}</a></li>
-                </ul>
-            </li>
-
-            <li><a ng-href="#/Racing-jersey">{{_("Jersey for ball game/Racing jersey")}}</a>
-                <ul class="mega-menu">
-                    <li><a href="">{{_("Running jersey")}}</a></li>
-                    <li><a href="">{{_("Soccer jersey")}}</a></li>
-                    <li><a href="">{{_("Basketball jersey")}}</a></li>
-                    <li><a href="">{{_("Rugby jersey")}}</a></li>
-                    <li><a href="">{{_("Hockey jersey")}}</a></li>
-                    <li><a href="">{{_("Triathlon jersey")}}</a></li>
-                </ul>
-            </li>
-
-            <li><a ng-href="#/Casual-Sports-Apparel">{{_("Casual Sports Apparel")}}</a>
-                <ul class="mega-menu">
-                    <li><a href="">{{_("Golf suit")}}</a></li>
-                    <li><a href="">{{_("Yoga jersey")}}</a></li>
-                    <li><a href="">{{_("Darts jersey")}}</a></li>
-                    <li><a href="">{{_("Roller skating jersey")}}</a></li>
-                    <li><a href="">{{_("Baseball Jersey")}}</a></li>
-                </ul>
-            </li>
-
-            <li><a ng-href="#/Accessories">{{_("Accessories")}}</a>
-                <ul class="mega-menu">
-                    <li><a href="">{{_("Hermit, glove")}}</a></li>
-                    <li><a href="">{{_("Cycling sleeves(arm&leg)")}}</a></li>
-                    <li><a href="">{{_("Flag")}}</a></li>
-                    <li><a href="">{{_("headband")}}</a></li>
+                    <li ng-repeat="item in group.subWithLink">
+                        <a href="{{item.link}}">{{_(item.sub)}}</a>
+                    </li>
                 </ul>
             </li>
         </ul>
@@ -50,7 +14,7 @@
     <div class="hero">
         <carousel interval="myInterval">
             <slide ng-repeat="slide in slides" active="slide.active">
-                <a href="#/{{slide.uri}}">
+                <a href="{{slide.uri}}">
                     <img height="400" ng-src="{{slide.image}}" style="margin:auto;">
                 </a>
             </slide>
