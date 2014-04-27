@@ -40,25 +40,19 @@ window.sport.factory('category', function () {
         }
     ];
 
-    var getUrl = function (category, sub) {
-        var cate = category.replace(' ', '-');
-        var item = sub.replace(' ', '-');
-        return "#/" + cate + "/" + item;
-    };
-
     _.each(groups, function (group) {
         var category = group.category;
 
         group.subWithLink = [];
         group.categoryWithLink = {
             category: category,
-            link: "#/" + category.replace(' ', '-')
+            link: "#/" + category
         };
 
         _.each(group.sub, function (item) {
             group.subWithLink.push({
                 sub: item,
-                link: getUrl(category, item)
+                link: "#/" + category + "/" + item
             });
         })
     });

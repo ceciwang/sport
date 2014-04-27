@@ -1,6 +1,6 @@
 window.sport.controller('SubCategoryController', ['$scope', 'imageRepo','$routeParams', function ($scope, imageRepo, $routeParams) {
-    var category = $routeParams.category.replace('-', ' ');
-    var subCategory = $routeParams.subCategory.replace('-',' ');
+    var category = $routeParams.category;
+    var subCategory = $routeParams.subCategory;
 
     imageRepo.fetchImages(function(data){
         $scope.pics = data[category][subCategory];
