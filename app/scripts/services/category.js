@@ -1,5 +1,5 @@
-window.SPORT = {
-    categories : [
+window.sport.factory('category', function () {
+    var groups = [
         {
             category: "Cycling jersey",
             sub: ["Longsleeve suit",
@@ -38,5 +38,31 @@ window.SPORT = {
                 "Headband"
             ]
         }
-    ]
-};
+    ];
+
+    var getUrl = function (category, sub) {
+        var cate = category.replace(' ', '-');
+        var item = sub.replace(' ', '-');
+        return "#/" + cate + "/" + item;
+    };
+
+    _.each(groups, function (group) {
+        var category = group.category;
+
+        group.subWithLink = [];
+        group.categoryWithLink = {
+            category: category,
+            link: "#/" + category.replace(' ', '-')
+        };
+
+        _.each(group.sub, function (item) {
+            group.subWithLink.push({
+                sub: item,
+                link: getUrl(category, item)
+            });
+        })
+    });
+
+    return groups;
+
+});

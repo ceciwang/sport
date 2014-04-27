@@ -1,4 +1,4 @@
-window.sport.controller('AccordionController', ['$scope', "$routeParams", function ($scope, $routeParams) {
+window.sport.controller('AccordionController', ['$scope', "$routeParams","category", function ($scope, $routeParams, categoryService) {
     $scope.show = function (category) {
         return $routeParams.category === category;
     };
@@ -9,25 +9,6 @@ window.sport.controller('AccordionController', ['$scope', "$routeParams", functi
         }
     };
 
-    $scope.groups = SPORT.categories;
-
-    var getUrl = function (category, sub) {
-        var cate = category.replace(' ', '-');
-        var item = sub.replace(' ', '-');
-        return "#/" + cate + "/" + item;
-    };
-
-    _.each($scope.groups, function(group){
-        var category = group.category;
-
-        group.subWithLink = [];
-
-        _.each(group.sub, function(item){
-            group.subWithLink.push({
-                sub: item,
-                link: getUrl(category, item)
-            });
-        })
-    });
+    $scope.groups = categoryService;
 
 }]);
