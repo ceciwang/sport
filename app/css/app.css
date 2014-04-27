@@ -213,6 +213,9 @@
     color: blue;
 }
 
-/*.category-header {*/
-    /*background-image: url("../images/header2.jpg");*/
-/*}*/
+.category-header {
+    background-image: url("../images/header.jpg");
+    height: 200px;
+    margin: 0 0 10px;
+    width: 100%;
+}
