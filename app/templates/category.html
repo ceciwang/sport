@@ -10,7 +10,7 @@
                 </accordion-heading>
                 <ul>
                     <li class="item" ng-class="isActiveItem(item)" ng-repeat="item in group.sub">
-                        <a ng-href="#/{{group.category}}/{{item}}">{{_(item)}}</a>
+                        <a ng-href="{{getUrl(group, item)}}">{{_(item)}}</a>
                     </li>
                 </ul>
                 {{group.content}}
