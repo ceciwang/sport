@@ -5,7 +5,7 @@ window.sport.controller('HomeController', ['$rootScope','$scope','imageRepo', fu
 
     var categories = ["riding", "wrestle","athletics", "sport","goods"];
 
-    imageRepo.fetchAds().success(function(allImages){
+    imageRepo.fetchHeroes().success(function(allImages){
         _.each(allImages.images, function(image, index){
             slides.push({
                 image: image,

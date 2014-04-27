@@ -11,9 +11,23 @@ window.sport.controller('AccordionController', ['$scope', "$routeParams", functi
 
     $scope.groups = SPORT.categories;
 
-    $scope.getUrl = function (group, sub) {
-        var cate = group.category.join('-');
-        var item = sub.join('-');
+    var getUrl = function (category, sub) {
+        var cate = category.replace(' ', '-');
+        var item = sub.replace(' ', '-');
         return "#/" + cate + "/" + item;
-    }
+    };
+
+    _.each($scope.groups, function(group){
+        var category = group.category;
+
+        group.subWithLink = [];
+
+        _.each(group.sub, function(item){
+            group.subWithLink.push({
+                sub: item,
+                link: getUrl(category, item)
+            });
+        })
+    });
+
 }]);

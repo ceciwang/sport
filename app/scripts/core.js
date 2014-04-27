@@ -2,7 +2,7 @@ var loaded = false;
 var allPromises;
 
 window.sport.run(['$rootScope', '$http', '$q', function ($rootScope, $http, $q) {
-    var i18nPromise = $http.get('data/naming.json');
+    var i18nPromise = $http.get('data/i18n.json');
 
     $rootScope.lang = "EN";
 

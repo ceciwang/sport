@@ -9,12 +9,12 @@ window.sport.factory('imageRepo', ['$http', function ($http) {
         });
     };
 
-    var fetchAds = function(){
-        return $http.get('data/ads.json');
+    var fetchHeroes = function(){
+        return $http.get('data/home.json');
     };
 
     return {
-        fetchAds: fetchAds,
+        fetchHeroes: fetchHeroes,
         fetchImages: fetchImages
     }
 }]);
