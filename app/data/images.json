@@ -1,6 +1,6 @@
 {
-    "riding": {
-        "longSleeve": [
+    "Cycling jersey": {
+        "Longsleeve suit": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
             },
@@ -11,25 +11,20 @@
                 "url": "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
             }
         ],
-        "shortSleeve": [
+        "Shortsleeve suit": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
             }
         ],
-        "riding1": [
+        "Windbreaker": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
-            }
-        ],
-        "riding2": [
-            {
-                "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
             }
         ]
     },
 
-    "wrestle": {
-        "tumbling": [
+    "Wrestling jersey": {
+        "wrestling jersey": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
             },
@@ -40,7 +35,7 @@
                 "url": "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
             }
         ],
-        "grapple": [
+        "Boxing pants": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
             },
@@ -53,8 +48,8 @@
         ]
     },
 
-    "athletics": {
-        "football": [
+    "Racing jersey": {
+        "Running jersey": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
             },
@@ -62,17 +57,33 @@
                 "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
             }
         ],
-        "basketball": [
+        "Soccer jersey": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
             }
         ],
-        "badminton": [
+        "Basketball jersey": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
             }
         ],
-        "pingpang": [
+        "Rugby jersey": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
+            },
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
+            }
+        ],
+        "Hockey jersey": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
+            },
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
+            }
+        ],
+        "Triathlon jersey": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
             },
@@ -82,8 +93,8 @@
         ]
     },
 
-    "sport": {
-        "golf": [
+    "Casual Sports Apparel": {
+        "Golf suit": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
             },
@@ -94,25 +105,30 @@
                 "url": "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
             }
         ],
-        "subCategory1": [
+        "Yoga jersey": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
             }
         ],
-        "subCategory2": [
+        "Darts jersey": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
             }
         ],
-        "subCategory3": [
+        "Roller skating jersey": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
+            }
+        ],
+        "Baseball Jersey": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
             }
         ]
     },
 
-    "goods": {
-        "protectiveClothing": [
+    "Accessories": {
+        "Hermit and glove": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
             },
@@ -123,12 +139,17 @@
                 "url": "http://bcs.duapp.com/xdlink/second/bi-101.jpg"
             }
         ],
-        "accessories": [
+        "Cycling sleeves(arm&leg)": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/ai-100.jpg"
             }
         ],
-        "glove": [
+        "Flag": [
+            {
+                "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
+            }
+        ],
+        "Headband": [
             {
                 "url": "http://bcs.duapp.com/xdlink/second/bi-100.jpg"
             }

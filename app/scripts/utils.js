@@ -12,8 +12,9 @@ window.SPORT = {
             sub: ["wrestling jersey", "Boxing pants"]
         },
         {
-            category: "Jersey for ball game/Racing jersey",
-            sub: ["Running jersey", "Soccer jersey",
+            category: "Racing jersey", //todo:using Jersey for ball game/Racing jersey
+            sub: ["Running jersey",
+                "Soccer jersey",
                 "Basketball jersey",
                 "Rugby jersey",
                 "Hockey jersey",
@@ -31,7 +32,7 @@ window.SPORT = {
         },
         {
             category: "Accessories",
-            sub: ["Hermit，glove",
+            sub: ["Hermit and glove",
                 "Cycling sleeves(arm&leg)",
                 "Flag",
                 "Headband"
