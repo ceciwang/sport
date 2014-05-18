@@ -5,7 +5,8 @@ window.sport.config(['$routeProvider', function ($routeProvider) {
             label: 'Home'
         })
         .when('/introduction',{
-            templateUrl: 'templates/introduction.html'
+            templateUrl: 'templates/introduction.html',
+            controller: 'AboutController'
         })
         .when('/:category', {
             templateUrl: 'templates/category.html',

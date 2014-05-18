@@ -3,5 +3,16 @@
         "http://bcs.duapp.com/ccwang/sport/home/2.jpg",
         "http://bcs.duapp.com/ccwang/sport/home/3.jpg",
         "http://bcs.duapp.com/ccwang/sport/home/4.jpg",
-        "http://bcs.duapp.com/ccwang/sport/home/5.jpg"]
+        "http://bcs.duapp.com/ccwang/sport/home/5.jpg"],
+
+    "devices": [
+        "http://bcs.duapp.com/ccwang/sport/devices/1.jpg",
+        "http://bcs.duapp.com/ccwang/sport/devices/2.jpg",
+        "http://bcs.duapp.com/ccwang/sport/devices/3.jpg",
+        "http://bcs.duapp.com/ccwang/sport/devices/4.jpg",
+        "http://bcs.duapp.com/ccwang/sport/devices/5.jpg",
+        "http://bcs.duapp.com/ccwang/sport/devices/6.jpg",
+        "http://bcs.duapp.com/ccwang/sport/devices/7.jpg"
+    ]
+
 }
