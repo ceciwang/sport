@@ -1,5 +1,5 @@
 window.sport.controller('DetailController', ['$scope', 'imageRepo','$modal','$routeParams', function ($scope, imageRepo, $modal, $routeParams) {
-    imageRepo.fetchImages(function(data){
+    imageRepo.fetchProducts(function(data){
         $scope.pics = data["riding"]["all"];
     });
 

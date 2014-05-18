@@ -1,6 +1,6 @@
 window.sport.factory('imageRepo', ['$http', function ($http) {
-    var fetchImages = function(onSuccess){
-        $http.get('data/images.json').success(function(data){
+    var fetchProducts = function(onSuccess){
+        $http.get('data/products.json').success(function(data){
             var result = data;
             _.each(data, function(value, key){
                 result[key].all = _.chain(value).values().flatten().value();
@@ -9,12 +9,12 @@ window.sport.factory('imageRepo', ['$http', function ($http) {
         });
     };
 
-    var fetchHeroes = function(){
-        return $http.get('data/home.json');
+    var fetchImages = function(){
+        return $http.get('data/images.json');
     };
 
     return {
-        fetchHeroes: fetchHeroes,
-        fetchImages: fetchImages
+        fetchImages: fetchImages,
+        fetchProducts: fetchProducts
     }
 }]);

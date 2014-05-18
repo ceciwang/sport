@@ -5,8 +5,8 @@ window.sport.controller('HomeController', ['$rootScope','$scope','imageRepo','ca
 
     $scope.categories = category;
 
-    imageRepo.fetchHeroes().success(function(allImages){
-        _.each(allImages.images, function(image, index){
+    imageRepo.fetchImages().success(function(allImages){
+        _.each(allImages.home, function(image, index){
             slides.push({
                 image: image,
                 uri: $scope.categories[index].categoryWithLink.link
