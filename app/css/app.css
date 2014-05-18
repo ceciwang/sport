@@ -245,14 +245,25 @@ body {
 
 }
 
-.introduction .section h3 {
+.introduction .device {
+    width: 48%;
+    float: left;
+    margin-left: 20px;
+}
+
+.introduction .content {
+    width: 48%;
+    float: right;
+}
+
+.introduction h3 {
     background-color: #f1f1f1;
     padding: 8px 10px;
     font-size: 18px;
     font-weight: bold;
 }
 
-.introduction .section p {
+.introduction p {
     padding: 10px 10px 20px;
     color: #666;
 }
