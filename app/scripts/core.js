@@ -4,7 +4,7 @@ var allPromises;
 window.sport.run(['$rootScope', '$http', '$q', function ($rootScope, $http, $q) {
     var i18nPromise = $http.get('data/i18n.json');
 
-    $rootScope.lang = "EN";
+    $rootScope.lang = "CN";
 
     allPromises = $q.all([ i18nPromise]);
     allPromises.then(function (respond) {
