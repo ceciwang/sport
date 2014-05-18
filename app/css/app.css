@@ -33,6 +33,21 @@ body {
     background: url("../images/slide_shadow.png") no-repeat center 0;
 }
 
+.highlight .content{
+    width: 65%;
+    float: right;
+}
+
+.highlight img {
+    vertical-align: middle;
+    float: left;
+    width: 30%;
+}
+
+.highlight .title {
+    margin-top: 0;
+}
+
 .list .nav-pills {
     text-align: center;
 }

@@ -1,18 +1,18 @@
 {
-    "home": ["http://bcs.duapp.com/ccwang/sport/home/1.jpg",
-        "http://bcs.duapp.com/ccwang/sport/home/2.jpg",
-        "http://bcs.duapp.com/ccwang/sport/home/3.jpg",
-        "http://bcs.duapp.com/ccwang/sport/home/4.jpg",
-        "http://bcs.duapp.com/ccwang/sport/home/5.jpg"],
+    "home": ["images/home/1.jpg",
+        "images/home/2.jpg",
+        "images/home/3.jpg",
+        "images/home/4.jpg",
+        "images/home/5.jpg"],
 
     "devices": [
-        "http://bcs.duapp.com/ccwang/sport/devices/1.jpg",
-        "http://bcs.duapp.com/ccwang/sport/devices/2.jpg",
-        "http://bcs.duapp.com/ccwang/sport/devices/3.jpg",
-        "http://bcs.duapp.com/ccwang/sport/devices/4.jpg",
-        "http://bcs.duapp.com/ccwang/sport/devices/5.jpg",
-        "http://bcs.duapp.com/ccwang/sport/devices/6.jpg",
-        "http://bcs.duapp.com/ccwang/sport/devices/7.jpg"
+        "images/devices/1.jpg",
+        "images/devices/2.jpg",
+        "images/devices/3.jpg",
+        "images/devices/4.jpg",
+        "images/devices/5.jpg",
+        "images/devices/6.jpg",
+        "images/devices/7.jpg",
+        "images/devices/8.jpg"
     ]
-
 }
