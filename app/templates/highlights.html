@@ -1,0 +1,20 @@
+<header class="container page-header clearfix category-header">
+</header>
+<div class="container introduction">
+    <section class="section">
+        <h3>{{_("VigorMeet Highlights")}}</h3>
+        <div class="device">
+            <carousel interval="myInterval">
+                <slide ng-repeat="slide in slides" active="slide.active">
+                    <a href="">
+                        <img ng-src="{{slide.image}}" style="margin:auto;">
+                    </a>
+                </slide>
+            </carousel>
+        </div>
+        <div class="content">
+            <h3 class="title">{{_("Heart to Heart")}}</h3>
+            <p>{{_("VigorMeet team had celebrated a special Mother’s Day with the students in Jiangxi Ruijin No.3 Middle school, where a large-scale “Heart to Heart” welfare activity was held. This activity is aiming to enhance the relationship and communications between students, teachers and parents and provide an opportunity to share our true feelings to our loved ones. As the support on clothing, VigorMeet is not only responsible for showing the theme of this activity on the design but also ensuring the clothing is comfortable when sports game is played during the activity. This welfare activity will be the first step for VigorMeet on the welfare path and it begins with a wonderful ceremony.")}} </p>
+        </div>
+    </section>
+</div>

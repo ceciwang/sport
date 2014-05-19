@@ -13,5 +13,11 @@
         "images/devices/5.jpg",
         "images/devices/6.jpg",
         "images/devices/7.jpg"
+    ],
+    "highlights": [
+        "images/highlights/heart/2.jpg",
+        "images/highlights/heart/3.jpg",
+        "images/highlights/heart/5.jpg",
+        "images/highlights/heart/6.jpg"
     ]
 }

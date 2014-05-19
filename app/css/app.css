@@ -77,10 +77,15 @@ body {
     text-align: center;
 }
 
+
 .nav > li.active > a,
 .nav > li.active > a:hover{
     background-color: transparent;
     color: #0f2c52;
+}
+
+.nav > li >a:hover{
+    background-color: transparent;
 }
 
 .footer {

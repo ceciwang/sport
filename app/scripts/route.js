@@ -8,6 +8,10 @@ window.sport.config(['$routeProvider', function ($routeProvider) {
             templateUrl: 'templates/introduction.html',
             controller: 'AboutController'
         })
+        .when('/highlights',{
+            templateUrl: 'templates/highlights.html',
+            controller: 'HighlightsController'
+        })
         .when('/:category', {
             templateUrl: 'templates/category.html',
             controller: 'CategoryController'
