@@ -57,8 +57,40 @@ body {
 }
 
 .page-header .nav li{
-    border: 0px solid #90cdeb;
+    /*border: 0px solid #90cdeb;*/
     border-right-width: 1px;
+}
+
+.page-header .nav li .main-category{
+    border-right-width: 0;
+    border-top: 6px solid #cccccc;
+    border-radius: 0;
+}
+
+.page-header .nav li:first-child .main-category:hover,
+.page-header .nav li:first-child .main-category.active {
+    border-color: #e18728;
+    color: #e18728;
+}
+.page-header .nav li:nth-child(2) .main-category:hover,
+.page-header .nav li:nth-child(2) .main-category.active {
+    border-color: orangered;
+    color: orangered;
+}
+.page-header .nav li:nth-child(4) .main-category:hover,
+.page-header .nav li:nth-child(4) .main-category.active {
+    border-color: #9351a6;
+    color: #9351a6;
+}
+.page-header .nav li:nth-child(3) .main-category:hover,
+.page-header .nav li:nth-child(3) .main-category.active {
+    border-color: yellowgreen;
+    color: yellowgreen;
+}
+.page-header .nav li:last-child .main-category:hover,
+.page-header .nav li:last-child .main-category.active {
+    border-color: #4472b9;
+    color: #4472b9;
 }
 
 .page-header .nav li:last-child {

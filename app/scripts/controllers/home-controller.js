@@ -1,5 +1,5 @@
 window.sport.controller('HomeController', ['$rootScope','$scope','imageRepo','category', function($rootScope, $scope, imageRepo, category){
-    $scope.myInterval = 5000;
+    $scope.myInterval = 3000;
 
     var slides = $scope.slides = [];
 
@@ -12,5 +12,12 @@ window.sport.controller('HomeController', ['$rootScope','$scope','imageRepo','ca
                 uri: $scope.categories[index].categoryWithLink.link
             });
         });
+
+        $scope.getClass = function(index){
+            if(slides[index].active){
+                return "active";
+            }
+            return "";
+        };
     });
 }]);

@@ -2,7 +2,7 @@
     <header class="container page-header clearfix all-category">
         <ul class="nav nav-pills category">
             <li ng-repeat="group in categories">
-                <a ng-href="{{group.categoryWithLink.link}}">{{_(group.categoryWithLink.category)}}</a>
+                <a class="main-category" ng-class="getClass($index)" ng-href="{{group.categoryWithLink.link}}">{{_(group.categoryWithLink.category)}}</a>
                 <ul class="mega-menu">
                     <li ng-repeat="item in group.subWithLink">
                         <a href="{{item.link}}">{{_(item.sub)}}</a>
