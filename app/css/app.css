@@ -29,8 +29,12 @@ body {
 }
 
 .highlight {
-    padding: 30px 10px 30px 10px;
+    padding: 10px 10px 30px 10px;
     background: url("../images/slide_shadow.png") no-repeat center 0;
+}
+
+.highlight .detail {
+    margin-top: 25px;
 }
 
 .highlight .content{
@@ -45,7 +49,7 @@ body {
 }
 
 .highlight .title {
-    margin-top: 0;
+    margin: 0 0 15px;
 }
 
 .list .nav-pills {
