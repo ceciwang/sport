@@ -1,5 +1,45 @@
 <header class="container page-header clearfix category-header">
 </header>
-<div class="container introduction">
+<div class="container">
     <div ng-include="'templates/partials/accordion.html'"></div>
+    <div class="introduction col-md-9">
+        <p>{{_("Thank you for your interest in Vigormeet. Please email us for orders, quotes or samples. You can reach our offices by phone, or fill out the form below and someone will get back to you promptly.")}}</p>
+        <div class="col-md-7">
+            <form role="form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input ng-model="contact.name" class="form-control" type="text" id="name" placeholder="Enter Name" required/>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" ng-model="contact.email" type="text" id="email" placeholder="Enter Email" required/>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input ng-model="contact.phone" type="text" class="form-control" id="phone" placeholder="Enter Phone" required/>
+                </div>
+                <div class="form-group">
+                    <label for="company">Company</label>
+                    <input ng-model="contact.company" type="text" class="form-control" id="company" required placeholder="Enter Company"/>
+                </div>
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <input ng-model="contact.country" type="text" class="form-control" id="country" required placeholder="Enter Country"/>
+                </div>
+                <div class="form-group">
+                    <label for="note">Comments/Notes</label>
+                    <textarea ng-model="contact.note" type="text" class="form-control" id="note" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <p>Vigormeet in Huizhou, Guangdong</p>
+            <p>Direct : +86 752 2871271</p>
+            <p>Fax: +86 752 2871271</p>
+            <p>Email: marketing@vigormeet.com</p>
+            <p>Add: 3/F, NO.210 East Guangreng Road, Jiulongcun Industrial park, Xiaojinkou, Huicheng District, Huizhou, P.R. China.</p>
+        </div>
+    </div>
 </div>
