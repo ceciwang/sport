@@ -33,34 +33,7 @@
 <body>
 <div ng-controller="MainController">
     <div class="home-header">
-        <header class="container page-header clearfix">
-            <a class="logo" href="#">
-                <img src="images/logo2.png" width="150" alt="logo"/>
-            </a>
-
-            <div class="clearfix right-bar">
-                <div class="clearfix">
-                    <div class="lang">
-                        <span ng-click='i18n("CN")'>中文</span>
-                        |
-                        <span ng-click='i18n("US")'>English</span>
-                    </div>
-
-                    <div class="phone">
-                        <span class="glyphicon glyphicon-earphone"></span>
-                        <span>010-1234567</span>
-                    </div>
-                </div>
-
-                <ul class="nav nav-pills navbar-right">
-                    <li class="active"><a href="#">{{_("Home")}}</a></li>
-                    <li><a ng-href="#/introduction">{{_("About VigorMeet")}}</a></li>
-                    <li><a ng-href="#">{{_("Contact us")}}</a></li>
-                    <li><a ng-href="#/highlights">{{_("VigorMeet Highlights")}}</a></li>
-                </ul>
-            </div>
-
-        </header>
+        <div ng-include="'templates/partials/header.html'"></div>
     </div>
 
     <ng-view></ng-view>

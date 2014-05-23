@@ -271,12 +271,16 @@ body {
 
 .phone,
 .lang {
-    cursor: pointer;
     float: right;
+}
+
+.lang {
+    cursor: pointer;
 }
 
 .phone {
     margin-right: 30px;
+    cursor: default;
 }
 
 .lang span {
