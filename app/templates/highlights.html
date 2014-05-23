@@ -1,7 +1,9 @@
 <header class="container page-header clearfix category-header">
 </header>
 <div class="container introduction">
-    <section class="section">
+    <div ng-include="'templates/partials/accordion.html'"></div>
+
+    <section class="introduction col-md-9">
         <h3>{{_("VigorMeet Highlights")}}</h3>
         <div class="device">
             <carousel interval="myInterval">

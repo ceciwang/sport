@@ -303,15 +303,10 @@ body {
 }
 
 .introduction .device {
-    width: 48%;
-    float: left;
-    margin-left: 20px;
+    width: 560px;
+    margin:10px auto;
 }
 
-.introduction .content {
-    width: 48%;
-    float: right;
-}
 
 .introduction h3 {
     background-color: #f1f1f1;
