@@ -12,6 +12,10 @@ window.sport.config(['$routeProvider', function ($routeProvider) {
             templateUrl: 'templates/highlights.html',
             controller: 'HighlightsController'
         })
+        .when('/contact',{
+            templateUrl: 'templates/contact.html',
+            controller: 'ContactController'
+        })
         .when('/:category', {
             templateUrl: 'templates/category.html',
             controller: 'CategoryController'
