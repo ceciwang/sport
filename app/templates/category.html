@@ -1,21 +1,7 @@
 <header class="container page-header clearfix category-header">
 </header>
 <div class="container list">
-    <div class="col-md-3 all-category" ng-controller="AccordionController">
-        <accordion close-others="oneAtATime">
-            <accordion-group is-open="show(group.category)" ng-repeat="group in groups">
-                <accordion-heading>
-                    {{_(group.category)}}
-                </accordion-heading>
-                <ul>
-                    <li class="item" ng-class="isActiveItem(item.sub)" ng-repeat="item in group.subWithLink">
-                        <a ng-href="{{item.link}}">{{_(item.sub)}}</a>
-                    </li>
-                </ul>
-                {{group.content}}
-            </accordion-group>
-        </accordion>
-    </div>
+    <div ng-include="'templates/partials/accordion.html'"></div>
 
     <div class="col-md-9">
         <div ng-include="'templates/partials/breadcrumb.html'"></div>
