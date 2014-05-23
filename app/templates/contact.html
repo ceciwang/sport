@@ -4,8 +4,8 @@
     <div ng-include="'templates/partials/accordion.html'"></div>
     <div class="introduction col-md-9">
         <p>{{_("Thank you for your interest in Vigormeet. Please email us for orders, quotes or samples. You can reach our offices by phone, or fill out the form below and someone will get back to you promptly.")}}</p>
-        <div class="col-md-7">
-            <form role="form">
+        <div class="col-md-7" ng-controller="SubmitController">
+            <form role="form" ng-submit="submit()">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input ng-model="contact.name" class="form-control" type="text" id="name" placeholder="Enter Name" required/>
