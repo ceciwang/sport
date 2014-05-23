@@ -230,6 +230,12 @@ body {
     background: -o-linear-gradient(top,#cecfd1,#fdfdfd);
 }
 
+.home-header .right-bar {
+    float: right;
+    display: inline-block;
+
+}
+
 .mega-menu li {
     list-style: none;
     padding-left: 15px;
@@ -263,14 +269,20 @@ body {
     text-shadow: 0px 2px 5px rgba(0,0,0,1.0);
 }
 
+.phone,
 .lang {
     cursor: pointer;
     float: right;
 }
 
-.lang span:hover {
-    color: blue;
+.phone {
+    margin-right: 30px;
 }
+
+.lang span {
+    text-decoration: underline;
+}
+
 
 .category-header {
     background-image: url("../images/header.jpg");
