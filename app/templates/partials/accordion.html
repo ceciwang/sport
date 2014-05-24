@@ -1,5 +1,5 @@
 <div class="col-md-3 all-category" ng-controller="AccordionController">
-    <accordion close-others="oneAtATime">
+    <accordion>
         <accordion-group is-open="show(group.category)" ng-repeat="group in groups">
             <accordion-heading>
                 {{_(group.category)}}

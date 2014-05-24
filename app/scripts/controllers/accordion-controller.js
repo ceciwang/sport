@@ -1,6 +1,9 @@
 window.sport.controller('AccordionController', ['$scope', "$routeParams","category", function ($scope, $routeParams, categoryService) {
     $scope.show = function (category) {
-        return $routeParams.category === category;
+        if(!!$routeParams.category){
+            return $routeParams.category === category;
+        }
+        return true;
     };
 
     $scope.isActiveItem = function (item) {
